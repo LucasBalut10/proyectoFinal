@@ -392,6 +392,10 @@ h1{color: #EFBD73;
     grid-template-columns: repeat(9,200px);
     grid-template-rows: repeat(4,150px);
     justify-content: center;
+    
+    width: 100%;
+    overflow: hidden;
+    
 }
 .pieDePagina{
     grid-column-start: 1;
@@ -861,6 +865,847 @@ main{background-color: #746057;}
     margin-top: 15px;
 }
 
+
+
+@media (max-width:1440px){
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px .625rem;
+        align-items: center;
+        gap: 1.25rem;
+    }
+    .logo{
+        padding-left: 100px;
+    }
+
+    .seccionInicio {
+        width: 100%;
+        height: 41.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .contenedorPresentacion p{
+        font-size: 50px;
+    }
+
+    .nuestrosServicios{
+        color: white;
+        background-color: #EFBD73;
+        width: 100%;
+        height:400px;
+        
+    }
+
+    .nuestrosServicios img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .img-proyect img {
+        width: 20rem;
+        height: 30rem;
+        border-radius: 1.25rem;
+        margin: 10px;
+    }
+
+    .contenedorProyectos{
+        width: 100%;
+        height:1600px;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 180px;
+        flex-direction: row;
+        gap: 1.25rem;
+        flex-wrap: wrap;
+    }
+
+    .columna1, .columna2 {
+        display: flex;
+        flex-direction: column; 
+        gap: 20px;
+    }
+
+    .fondo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .fondo h2{
+        margin-left: 100px;
+    }
+
+    .pieDePagina{
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 200px;
+        gap: 400px;
+
+    }
+
+
+    /* responsive html nosotros */
+
+    .contenedorMision{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+    }
+    .contenedorMision img{
+        width: 400px;
+        height: 550px;
+        border-radius: 10px;
+    }
+    .contenedorMision p{
+        width: 55%;
+    }
+
+    .contenedorVision{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+
+    }
+    .contenedorVision img{
+        width: 400px;
+        height: 550px;
+        border-radius: 10px;
+    }
+    .contenedorVision p{
+        width: 55%;
+    }
+
+    /* responsive html portafolio */
+
+    .dato1, .dato2, .dato4, .dato5 {
+        margin: 0 20px;}
+
+    .dato1 p {
+        font-size: 30px;
+    }
+    .dato2 p {
+        font-size: 30px;
+    }
+    .dato5 p {
+        font-size: 30px;
+    }
+    .dato4 p {
+        font-size: 30px;
+    }
+    .dato1 h2 {
+        font-size: 40px;
+    }
+    .dato2 h2 {
+        font-size: 40px;
+    }
+    .dato5 h2 {
+        font-size: 40px;
+    }
+    .dato4 h2 {
+        font-size: 40px;
+    }
+
+
+
+
+
+
+}
+
+@media(max-width:1024px){
+
+    .footer{
+        width: 100%;
+    }
+    .pieDePagina{
+        width: 100%;
+    }
+    main{width: 100%;}
+
+    .logo{
+        padding-left: 50px;
+    }
+
+    .sobreNosotros{
+        color: white;
+        background-color: #EFBD73 ;
+        width: 40rem;
+        height: 20rem;
+        background-image: url(../assets/imagenes/living.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 50%;
+        border-radius: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        padding-right: 50%; 
+        padding-left: 1rem; 
+    
+    }
+    
+    .sobreNosotros h2 {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: 1.25rem;
+    }
+    .sobreNosotros p {
+        font-size: 15px;
+    }
+
+    .nuestrosServicios{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contenedorServicio1 h3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .contenedorServicio2 h3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .contenedorServicio3 h3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .listaSer {
+        font-size: 14px;
+    }
+    
+    .cajaNovedades{
+        background-color: #3a2e29;
+        color: white;
+        width: 40rem;
+        height: 21rem;
+        background-image: url(../assets/imagenes/cajanovedades.jpg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 50%;
+        border-radius: 1.25rem;
+    }
+
+    .contenidoNovedades{
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px;
+    }
+    .contenidoNovedades p{
+        margin-left: 15px;
+    }
+    .boton{
+        width: 140px;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .contenedorcontacto{
+        width: 700px;
+        height: 350px;
+        background-color: #DEAE66;
+        border-radius: 20px;
+    }
+
+
+    .contenedorcontacto img{
+        width: 700px;
+        height: 350px;
+        border-radius: 20px;
+        opacity: 0.2;
+    }
+
+    .botonMarron{
+        background-color: rgb(84, 18, 18);
+        height: 35px;
+        width: 120px;
+        border-radius: 20px;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+
+    .pieDePagina{
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 200px;
+        gap: 200px;
+
+    }
+
+    /* responsive html nosotros */
+
+    .seccionCartasEquipo{
+        width: 100%;
+    }
+
+    .empleada1 img{
+        width: 280px;
+        height: 300px;
+    }
+    .empleada3 img{
+        width: 280px;
+        height: 300px;
+    }
+    .empleada2 img{
+        width: 280px;
+        height: 300px;
+    }
+
+    /* responsive html portafolio */
+
+    .contenedorPortafolio{
+        width: 95vw;
+    }
+    .foto img{
+        width: 300px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .nuestrosServicios{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contenedorServicio1 h3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .contenedorServicio1{
+        margin-left: 20px;
+    }
+    .contenedorServicio2{
+        margin-left: 20px;
+    }
+    .contenedorServicio3{
+        margin-left: 15px;
+    }
+
+    .contenedorServicio2 h3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .contenedorServicio3 h3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .listaSer {
+        font-size: 12px;
+        line-height: 1.5
+    }
+    .nuestrosServicios img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .sobreNosotros{
+        color: white;
+        background-color: #EFBD73 ;
+        width: 40rem;
+        height: 20rem;
+        background-image: url(../assets/imagenes/living.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 57%;
+        border-radius: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        padding-right: 50%; 
+        padding-left: 1rem; 
+    
+    }
+    
+    .sobreNosotros h2 {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 25px;
+        margin-top: 1.25rem;
+        align-items: flex-start;
+        margin: 15px;
+
+
+    }
+    .sobreNosotros p {
+        font-size: 15px;
+        align-items: flex-start;
+        margin: 0px;
+        width: 80%;
+        height: 100%;
+        line-height: 1.5
+    }
+
+    .pieDePagina{
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 200px;
+        gap: 100px;
+    }
+
+    .parte1 p{
+        font-size: 15px;
+    }
+    .parte2 img{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    /* responsive html nosotros */
+
+    .seccionCartasEquipo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .empleada1 img{
+        width: 200px;
+        height: 250px;
+    
+
+    }
+    .empleada3 img{
+        width: 200px;
+        height: 250px;
+        margin-right: 15px;
+
+    }
+    .empleada2 img{
+        width: 200px;
+        height: 250px;
+        margin-right: 15px;
+    }
+
+    .empleada1 p{
+        font-size: 15px;
+    }
+    .empleada2 p{
+        font-size: 15px;
+    }
+    .empleada3 p{
+        font-size: 15px;
+    }
+
+    /* responsive html portafolio */
+    .contenedorPortafolio{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-left: 40px;
+    }
+
+    .foto {
+        width: calc(50% - 10px); 
+        box-sizing: border-box; 
+    }
+
+    .dato1, .dato2, .dato4, .dato5 {
+        margin: 0 15px;}
+
+    .dato1 p {
+        font-size: 18px;
+    }
+    .dato2 p {
+        font-size: 18px;
+    }
+    .dato5 p {
+        font-size: 18px;
+    }
+    .dato4 p {
+        font-size: 18px;
+    }
+    .dato1 h2 {
+        font-size: 30px;
+    }
+    .dato2 h2 {
+        font-size: 30px;
+    }
+    .dato5 h2 {
+        font-size: 30px;
+    }
+    .dato4 h2 {
+        font-size: 30px;
+    }
+
+    .opiniones{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .opiniones div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comentario1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .comentario2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width:425px){
+
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px .625rem;
+        gap: 1.25rem;
+    }
+    .logo{
+        font-size: 35px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar {
+        list-style: none; 
+        padding: 0; 
+        margin: 0; 
+        display: flex;
+        flex-direction: column; 
+        gap: 10px; 
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .navbar a{
+        font-size: 12px;
+
+    }
+
+    .seccionInicio {
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .contenedorPresentacion p{
+        font-size: 30px;
+    }
+    .contenedorPresentacion h1{
+        font-size: 50px;
+    }
+
+    .sobreNosotros{
+            color: white;
+            background-color: #EFBD73 ;
+            width: 400px;
+            height: 350px;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: 100%;
+            border-radius: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-right: 1rem; 
+            padding-left: 1rem; 
+        
+        }
+        .sobreNosotros h2 {
+            width: 100%;
+            font-size: 18px;
+            margin-bottom: 15px;
+            margin-top: 1.25rem;
+            align-items: flex-start;
+    
+        }
+        .sobreNosotros p {
+            font-size: 15px;
+            align-items: flex-start;
+            margin: 0px;
+            width: 80%;
+            height: 100%;
+            line-height: 1.3
+        }
+
+
+
+    .nuestrosServicios{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .contenedorProyectos{
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+}
+.cajaNovedades{
+    background-color: #3a2e29;
+    color: white;
+    width: 90vw;
+    height: 21rem;
+    background-image: url(../assets/imagenes/cajanovedades.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:40% 100%; 
+    border-radius: 1.25rem;
+    display: flex;
+    padding: 0%;
+    overflow: hidden;
+}
+.contenidoNovedades{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    align-content: flex-start;
+    width: 60%;
+    height: 100%;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+
+}
+.contenidoNovedades p {
+    margin-left: 10px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 0px;
+    line-height: 1.3
+
+}
+.contenidoNovedades h2{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.boton{
+    width: 140px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.contenedorcontacto{
+    width: 90vw;
+    height: 350px;
+    background-color: #DEAE66;
+    border-radius: 20px;
+}
+
+.contenedorcontacto img{
+    width: 90vw;
+    height: 350px;
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+.botonMarron{
+    background-color: rgb(84, 18, 18);
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.footer{
+    height: 400px;
+}
+
+.pieDePagina {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    padding: 50px; 
+    gap: 50px; 
+}
+
+.parte1 {
+    font-size: 15px; 
+    text-align: center; 
+}
+
+.parte2 img {
+    width: 30px;
+    height: 30px;
+    margin: 20px 20px; 
+}
+
+
+/* responsive html nosotros */
+
+.seccionCartasEquipo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.empleada1 p,
+.empleada2 p,
+.empleada3 p {
+    margin-top: 5px; 
+}
+
+/* responsive html portafolio */
+.ubicacionPortafolio {
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+}
+
+.contenedorPortafolio {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    width: 90%; 
+    max-width: 1200px; 
+    box-sizing: border-box; 
+    margin-left: 5px;
+}
+
+.foto {
+    flex: 1 1 calc(50% - 20px); 
+    box-sizing: border-box; 
+}
+
+.foto img {
+    width: 100%; 
+    height: 250px; 
+    display: block; 
+}
+
+.seccionDatos{
+    display: flex;
+    flex-direction: column;
+}
+.dato1, .dato2, .dato4, .dato5 {
+    margin-bottom: 40px;}
+
+.dato1 p {
+    font-size: 25px;
+}
+.dato2 p {
+    font-size: 25px;
+}
+.dato5 p {
+    font-size: 25px;
+}
+.dato4 p {
+    font-size: 25px;
+}
+.dato1 h2 {
+    font-size: 50px;
+}
+.dato2 h2 {
+    font-size: 50px;
+}
+.dato5 h2 {
+    font-size: 50px;
+}
+.dato4 h2 {
+    font-size: 50px;
+}
+
+.opiniones {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+.opiniones div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.comentario1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.comentario2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ambosComentarios {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 100%; 
+    box-sizing: border-box;}
+
+}
 
 
 
