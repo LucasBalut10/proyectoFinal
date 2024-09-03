@@ -1,0 +1,36 @@
+.opiniones{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px;
+    h3{
+        color: #DEAE66;
+    }
+    p{
+        color: white;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        div{
+            flex: 1; 
+            background-color: #746057; 
+            border-radius: 8px; 
+            padding: 20px; 
+            text-align: center; 
+            box-sizing: border-box;
+            img{
+                width: 100px; 
+                height: auto; 
+                border-radius: 50%; 
+                margin-bottom: 10px;
+            }
+            h3{
+                margin-top: 25px;
+                color: #DEAE66;
+            }
+        }
+    }
+}

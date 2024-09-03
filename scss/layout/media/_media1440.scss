@@ -1,0 +1,103 @@
+@media (max-width:1440px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px .625rem;
+        align-items: center;
+        gap: 1.25rem;
+    }
+    .logo{
+        padding-left: 100px;
+    }
+    .seccionInicio {
+        width: 100%;
+        height: 41.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .contenedorPresentacion p{
+            font-size: 50px;
+        }
+    }
+    .nuestrosServicios{
+        color: white;
+        background-color: #EFBD73;
+        width: 100%;
+        height:400px;
+    }
+    .nuestrosServicios img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .img-proyect img {
+        width: 20rem;
+        height: 30rem;
+        border-radius: 1.25rem;
+        margin: 10px;
+    }
+    .contenedorProyectos{
+        width: 100%;
+        height:1600px;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 180px;
+        flex-direction: row;
+        gap: 1.25rem;
+        flex-wrap: wrap;
+        div{
+            display: flex;
+            flex-direction: column; 
+            gap: 20px;
+        }
+    }
+    .pieDePagina{
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 200px;
+        gap: 400px;
+    }
+    /* responsive html nosotros */
+    .contenedorMision{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img{
+            width: 400px;
+            height: 550px;
+            border-radius: 10px;
+        }
+        p{
+            width: 55%;
+        }
+    }
+    .contenedorVision{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img{
+            width: 400px;
+            height: 550px;
+            border-radius: 10px;
+        }
+        p{
+            width: 55%;
+        }
+    }
+    /* responsive html portafolio */
+    .seccionDatos{
+        div{
+            margin: 0 20px;
+        }
+        p{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 40px;
+        }
+    }
+}

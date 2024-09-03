@@ -1,0 +1,43 @@
+.cajaNovedades{
+    background-color: #3a2e29;
+    color: white;
+    width: 79.25rem;
+    height: 42.5rem;
+    background-image: url(../assets/imagenes/cajanovedades.jpg);
+    background-repeat: no-repeat;
+    border-radius: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(6,1fr);
+    margin-bottom: 50px;
+    article{
+        grid-column-start: 6;
+        grid-column-end: 11;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+        grid-template-rows: repeat(8,85px);
+        h2{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            align-self: center;
+        }
+        p{
+            grid-column-start: 1;
+            grid-column-end: 7;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            margin-right: 50px;
+        }
+        button{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 7;
+            grid-row-end: 9;
+            align-self: center;
+        }
+    }
+}

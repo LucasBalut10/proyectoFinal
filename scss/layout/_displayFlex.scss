@@ -1,0 +1,91 @@
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.seccionGrande{
+    display: flex;
+    justify-content: center;
+}
+.ubicacionCajaNovedades{
+    display: flex;
+    justify-content: center;
+}
+.ubicacionCuestionario{
+    display: flex;
+    justify-content: center;
+}
+.ubicacionEquipo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+.seccionEquipo{
+    h2{
+        display: flex;
+    justify-content: center;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+.trabajemosJuntos{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.ubicacionPortafolio{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.seccionDatos{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    text-align: center;
+    h2{
+        color: #EFBD73;
+    }
+    p{
+        color: white;
+        margin-left: 40px;
+    }
+}
+.ubicacionCuestionario{
+    margin-top: 50px;
+    background-color: #746057;
+}
+.contenedorMapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 100px;
+    text-align: center;
+    h2{
+        color: white;
+        margin-right: 30px;
+    }
+}
+.contenedorRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    h2{
+        margin-bottom: 30px;
+    }
+}
+.ubicacionServicio{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
