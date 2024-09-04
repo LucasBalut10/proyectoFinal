@@ -100,4 +100,23 @@
             font-size: 40px;
         }
     }
+    .ambosComentarios{
+        div{
+            display: flex;
+            flex-direction: column;
+            img {
+                display: block;
+                margin: 0 auto; 
+            }
+            p{
+                margin-top: 30px;
+            }
+            
+        }
+    }
+    .contenedorRedes{
+        .textoBlanco{
+            color: white;
+        }
+    }
 }

@@ -644,7 +644,17 @@ main {
   .seccionDatos p {
     font-size: 30px; }
   .seccionDatos h2 {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .ambosComentarios div {
+    display: flex;
+    flex-direction: column; }
+    .ambosComentarios div img {
+      display: block;
+      margin: 0 auto; }
+    .ambosComentarios div p {
+      margin-top: 30px; }
+  .contenedorRedes .textoBlanco {
+    color: white; } }
 
 @media (max-width: 1024px) {
   .footer {
@@ -870,7 +880,37 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 20px; } }
+        margin-bottom: 20px; }
+  /* responsive html servicios */
+  .contenedorRedes {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .contenedorRedes .textoBlanco {
+      color: white; }
+  /* responsive html servicios */
+  .contenedorServicio {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px; }
+    .contenedorServicio .imagenServicio img {
+      width: 320px;
+      height: 350px; }
+    .contenedorServicio .contenedorInfoServicio {
+      width: 300px;
+      max-width: 100%;
+      margin-left: 50px; }
+      .contenedorServicio .contenedorInfoServicio h2 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .contenedorServicio .contenedorInfoServicio ul {
+        line-height: 1.5;
+        word-wrap: break-word; } }
 
 @media (max-width: 425px) {
   header {
@@ -1087,4 +1127,48 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 20px; } }
+        margin-bottom: 20px; }
+  .contenedorMapa {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto; }
+    .contenedorMapa h2 {
+      font-size: 22px;
+      margin-left: 20px;
+      margin-top: 40px; }
+    .contenedorMapa iframe {
+      width: 350px;
+      height: 350px;
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 40px; }
+  .contenedorRedes {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .contenedorRedes .textoBlanco {
+      color: white; }
+  .contenedorServicio {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    gap: 0px;
+    padding: 0px; }
+    .contenedorServicio .imagenServicio {
+      gap: 0px;
+      padding: 0px;
+      margin: 0px; }
+  .contenedorMedio .imagenServicio {
+    order: 1; }
+  .contenedorMedio .contenedorInfoServicio {
+    order: 2; } }

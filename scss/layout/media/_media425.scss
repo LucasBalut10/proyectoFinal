@@ -202,30 +202,30 @@
     }
 
     /* responsive html portafolio */
-.ubicacionPortafolio {
-    display: flex;
-    justify-content: center; 
-    width: 100%; 
-    .contenedorPortafolio{
+    .ubicacionPortafolio {
         display: flex;
-        flex-wrap: wrap; 
         justify-content: center; 
-        gap: 20px; 
-        width: 90%; 
-        max-width: 1200px; 
-        box-sizing: border-box; 
-        margin-left: 5px;
-        div{
-            flex: 1 1 calc(50% - 20px); 
+        width: 100%; 
+        .contenedorPortafolio{
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 20px; 
+            width: 90%; 
+            max-width: 1200px; 
             box-sizing: border-box; 
-            img{
-                width: 100%; 
-                height: 250px; 
-                display: block; 
+            margin-left: 5px;
+            div{
+                flex: 1 1 calc(50% - 20px); 
+                box-sizing: border-box; 
+                img{
+                    width: 100%; 
+                    height: 250px; 
+                    display: block; 
+                }
             }
         }
     }
-}
     .seccionDatos{
         display: flex;
         flex-direction: column;
@@ -257,7 +257,6 @@
             gap: 20px; 
             max-width: 100%; 
             box-sizing: border-box;
-
             div{
                 display: flex;
                 flex-direction: column;
@@ -265,6 +264,61 @@
                 align-items: center;
                 margin-bottom: 20px;
             }
+        }
+    }
+    .contenedorMapa{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+        h2{
+            font-size: 22px;
+            margin-left: 20px;
+            margin-top: 40px;
+        }
+        iframe{
+            width: 350px;
+            height: 350px;
+            width: 100%;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    }
+    .contenedorRedes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .textoBlanco{
+            color: white;
+        }
+    }
+    .contenedorServicio{
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        gap: 0px;
+        padding: 0px;
+        .imagenServicio{
+            gap: 0px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    .contenedorMedio{
+        .imagenServicio {
+            order: 1;
+        }
+        .contenedorInfoServicio {
+            order: 2;
         }
     }
 }

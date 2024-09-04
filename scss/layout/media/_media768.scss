@@ -134,4 +134,48 @@
             }
         }
     }
+/* responsive html servicios */
+    .contenedorRedes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .textoBlanco{
+            color: white;
+        }
+    }
+
+/* responsive html servicios */
+    .contenedorServicio{
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+        .imagenServicio{
+            img{
+                width: 320px;
+                height: 350px;
+            }
+        }
+        .contenedorInfoServicio{
+            width: 300px;
+            max-width: 100%;
+            margin-left: 50px;
+            h2 {
+                white-space: nowrap; // Evita que el título se divida en varias líneas
+                overflow: hidden;    // Esconde cualquier texto que se salga del contenedor
+                text-overflow: ellipsis; // Añade "..." si el texto es demasiado largo para el contenedor
+            }
+            ul {
+                line-height: 1.5;
+                word-wrap: break-word;
+            }
+        }
+    }
+
+
+
+
 }
